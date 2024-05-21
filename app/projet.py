@@ -2,10 +2,10 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('model1.pkl', 'rb') as file:
+with open(r'C:\Users\baihich\Desktop\test\app\model1.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('scaler.pkl', 'rb') as file:
+with open(r'C:\Users\baihich\Desktop\test\app\scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Titre de l'application
